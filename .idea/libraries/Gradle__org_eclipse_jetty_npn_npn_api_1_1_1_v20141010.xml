@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.jetty.npn:npn-api:1.1.1.v20141010">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/gradle/caches/modules-2/files-2.1/org.eclipse.jetty.npn/npn-api/1.1.1.v20141010/64d9cd3cb5079c120d37538f2d0d42665f951892/npn-api-1.1.1.v20141010.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.npn/npn-api/1.1.1.v20141010/64d9cd3cb5079c120d37538f2d0d42665f951892/npn-api-1.1.1.v20141010.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/gradle/caches/modules-2/files-2.1/org.eclipse.jetty.npn/npn-api/1.1.1.v20141010/7bcd5037f7e22200dfa68136bfefb07a928fef3b/npn-api-1.1.1.v20141010-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.npn/npn-api/1.1.1.v20141010/7bcd5037f7e22200dfa68136bfefb07a928fef3b/npn-api-1.1.1.v20141010-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

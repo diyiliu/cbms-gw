@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="vehicleInfoCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="canInfoCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="canStatusProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="canPackageProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="paramsCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="alarmInfoCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="fenceCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="fenceAlarmInfoCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="workAlarmInfoCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+
+    <bean name="inOutAlarmInfoCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="monitorCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+
+    <bean name="nameKeyCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+    <bean name="alertItemCacheProvider" class="com.tianze.cache.ram.RamCacheProvider"/>
+</beans>

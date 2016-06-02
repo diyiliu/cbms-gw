@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 获取所有在任务中的车辆 定时任务-->
+    <bean id="getVehicleInfoDetail"
+          class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!--构造使用的类 -->
+        <property name="targetObject">
+            <ref bean="vehicleInfoTaskImpl"/>
+        </property>
+        <!-- 启动的类-->
+        <property name="targetMethod">
+            <value>executeTask</value>
+        </property>
+        <!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+        <property name="concurrent" value="false"/>
+    </bean>
+    <!-- 启动定时相关设置 -->
+    <bean id="getAllVehicleTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="getVehicleInfoDetail"/>
+        <!--启动后延迟执行时间，单位 毫秒-->
+        <property name="startDelay">
+            <value>1</value>
+        </property>
+        <!--每次运行任务间隔，单位毫秒 ，比如设置为 5000 则表示 每 5 秒运行一次 -->
+        <property name="repeatInterval">
+            <value>300000</value>
+        </property>
+    </bean>
+
+    <!-- 获取功能集 定时任务-->
+    <bean id="getCanInfoDetail"
+          class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!--构造使用的类 -->
+        <property name="targetObject">
+            <ref bean="canTaskImpl"/>
+        </property>
+        <!-- 启动的类-->
+        <property name="targetMethod">
+            <value>executeTask</value>
+        </property>
+        <!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+        <property name="concurrent" value="false"/>
+    </bean>
+    <!-- 启动定时相关设置 -->
+    <bean id="getCanInfoTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="getCanInfoDetail"/>
+        <!--启动后延迟执行时间，单位 毫秒-->
+        <property name="startDelay">
+            <value>1</value>
+        </property>
+        <!--每次运行任务间隔，单位毫秒 ，比如设置为 5000 则表示 每 5 秒运行一次 -->
+        <property name="repeatInterval">
+            <value>300000</value>
+        </property>
+    </bean>
+
+    <!-- 获取所有在任务中的车辆 定时任务-->
+    <bean id="getAlarmInfoDetail"
+          class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!--构造使用的类 -->
+        <property name="targetObject">
+            <ref bean="alarmInfoTaskImpl"/>
+        </property>
+        <!-- 启动的类-->
+        <property name="targetMethod">
+            <value>executeTask</value>
+        </property>
+        <!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+        <property name="concurrent" value="false"/>
+    </bean>
+    <!-- 启动定时相关设置 -->
+    <bean id="getAlarmInfoTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="getAlarmInfoDetail"/>
+        <!--启动后延迟执行时间，单位 毫秒-->
+        <property name="startDelay">
+            <value>1</value>
+        </property>
+        <property name="repeatCount">
+            <value>0</value>
+        </property>
+        <property name="repeatInterval">
+            <value>0</value>
+        </property>
+    </bean>
+
+
+    <!-- 获取所有在任务中的车辆 定时任务-->
+    <bean id="getFenceDetail"
+          class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!--构造使用的类 -->
+        <property name="targetObject">
+            <ref bean="fenceTaskImpl"/>
+        </property>
+        <!-- 启动的类-->
+        <property name="targetMethod">
+            <value>executeTask</value>
+        </property>
+        <!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+        <property name="concurrent" value="false"/>
+    </bean>
+    <!-- 启动定时相关设置 -->
+    <bean id="getFenceTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="getFenceDetail"/>
+        <!--启动后延迟执行时间，单位 毫秒-->
+        <property name="startDelay">
+            <value>1</value>
+        </property>
+        <property name="repeatInterval">
+            <value>300000</value>
+        </property>
+    </bean>
+
+    <!-- 启动的任务列表-->
+    <bean id="SpringJobSchedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="getAllVehicleTrigger"/>
+                <ref bean="getCanInfoTrigger"/>
+                <ref bean="getAlarmInfoTrigger"/>
+                <ref bean="getFenceTrigger"/>
+            </list>
+        </property>
+    </bean>
+</beans>

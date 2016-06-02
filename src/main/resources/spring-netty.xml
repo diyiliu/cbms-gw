@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="acceptorGroup" class="io.netty.channel.nio.NioEventLoopGroup"/>
+    <bean id="tlbsIoGroup" class="io.netty.channel.nio.NioEventLoopGroup"/>
+    <bean id="dbpIoGroup" class="io.netty.channel.nio.NioEventLoopGroup"/>
+    <bean id="ioGroup" class="io.netty.channel.nio.NioEventLoopGroup"/>
+    <bean id="serverHandel" class="com.tianze.handel.ServerHandel"/>
+
+
+    <bean id="tlbsClientBoot" class="io.netty.bootstrap.Bootstrap"/>
+    <bean id="dbpClientBoot" class="io.netty.bootstrap.Bootstrap"/>
+    <bean id="serverBoot" class="io.netty.bootstrap.ServerBootstrap"/>
+
+    <bean id="tlbsClient" class="com.tianze.client.TlbsClient" init-method="init">
+        <property name="HOST" value="${tlbs.inAddress}"/>
+        <property name="PORT" value="${tlbs.inPort}"/>
+        <property name="ioGroup" ref="tlbsIoGroup"/>
+        <property name="bootstrap" ref="tlbsClientBoot"/>
+
+    </bean>
+
+
+    <bean id="dbpClient" class="com.tianze.client.DbpClient" init-method="init">
+        <property name="HOST" value="${dbp.inAddress}"/>
+        <property name="PORT" value="${dbp.inPort}"/>
+        <property name="ioGroup" ref="dbpIoGroup"/>
+        <property name="bootstrap" ref="dbpClientBoot"/>
+    </bean>
+
+
+    <bean id="tcpServer" class="com.tianze.server.TcpServer" init-method="init">
+        <property name="acceptorGroup" ref="acceptorGroup"/>
+        <property name="PORT" value="${my.outPort}"/>
+        <property name="ioGroup" ref="ioGroup"/>
+        <property name="bootstrap" ref="serverBoot"/>
+        <property name="handel" ref="serverHandel"/>
+    </bean>
+
+</beans>

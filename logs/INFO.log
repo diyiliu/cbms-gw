@@ -1,0 +1,269 @@
+[ INFO ] [2016-04-28 10:12:49] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:12:54] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:12:54] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:12:54] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:12:54] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:12:54] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:12:54] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:12:54] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:12:55] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xb1b0016e] REGISTERED
+[ INFO ] [2016-04-28 10:12:55] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xb1b0016e] BIND(0.0.0.0/0.0.0.0:8089)
+[ INFO ] [2016-04-28 10:12:55] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xb1b0016e, /0:0:0:0:0:0:0:0:8089] ACTIVE
+[ INFO ] [2016-04-28 10:12:55] org.quartz.impl.StdSchedulerFactory.main [1184] - Using default implementation for ThreadExecutor
+[ INFO ] [2016-04-28 10:12:55] org.quartz.core.SchedulerSignalerImpl.main [61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO ] [2016-04-28 10:12:55] org.quartz.core.QuartzScheduler.main [240] - Quartz Scheduler v.2.2.1 created.
+[ INFO ] [2016-04-28 10:12:55] org.quartz.simpl.RAMJobStore.main [155] - RAMJobStore initialized.
+[ INFO ] [2016-04-28 10:12:55] org.quartz.core.QuartzScheduler.main [305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO ] [2016-04-28 10:12:55] org.quartz.impl.StdSchedulerFactory.main [1339] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+[ INFO ] [2016-04-28 10:12:55] org.quartz.impl.StdSchedulerFactory.main [1343] - Quartz scheduler version: 2.2.1
+[ INFO ] [2016-04-28 10:12:55] org.quartz.core.QuartzScheduler.main [2311] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@badfba
+[ INFO ] [2016-04-28 10:12:55] org.quartz.core.QuartzScheduler.main [575] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+[ INFO ] [2016-04-28 10:12:55] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [56] - CanTaskImpl is starting
+[ INFO ] [2016-04-28 10:12:55] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [42] - AlarmInfoTask is starting
+[ INFO ] [2016-04-28 10:12:55] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [38] - VehicleInfoTask is starting
+[ INFO ] [2016-04-28 10:12:55] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [40] - FenceTaskImpl is starting
+[ INFO ] [2016-04-28 10:12:57] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [46] - AlarmInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:12:57] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [42] - VehicleInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:12:57] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [44] - FenceTaskImpl has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:12:58] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [60] - CanTaskImpl has been finished,and cost 3s
+[ INFO ] [2016-04-28 10:30:30] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:30:34] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:30:34] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:30:34] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:30:34] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:30:34] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:30:34] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:30:34] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:30:35] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:30:35] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xcb925892] REGISTERED
+[ INFO ] [2016-04-28 10:30:36] org.quartz.impl.StdSchedulerFactory.main [1184] - Using default implementation for ThreadExecutor
+[ INFO ] [2016-04-28 10:30:36] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xcb925892] BIND(0.0.0.0/0.0.0.0:8089)
+[ INFO ] [2016-04-28 10:30:36] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xcb925892, /0:0:0:0:0:0:0:0:8089] ACTIVE
+[ INFO ] [2016-04-28 10:30:36] org.quartz.core.SchedulerSignalerImpl.main [61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO ] [2016-04-28 10:30:36] org.quartz.core.QuartzScheduler.main [240] - Quartz Scheduler v.2.2.1 created.
+[ INFO ] [2016-04-28 10:30:36] org.quartz.simpl.RAMJobStore.main [155] - RAMJobStore initialized.
+[ INFO ] [2016-04-28 10:30:36] org.quartz.core.QuartzScheduler.main [305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO ] [2016-04-28 10:30:36] org.quartz.impl.StdSchedulerFactory.main [1339] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+[ INFO ] [2016-04-28 10:30:36] org.quartz.impl.StdSchedulerFactory.main [1343] - Quartz scheduler version: 2.2.1
+[ INFO ] [2016-04-28 10:30:36] org.quartz.core.QuartzScheduler.main [2311] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@27fe4315
+[ INFO ] [2016-04-28 10:30:36] org.quartz.core.QuartzScheduler.main [575] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+[ INFO ] [2016-04-28 10:30:36] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [42] - AlarmInfoTask is starting
+[ INFO ] [2016-04-28 10:30:36] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [38] - VehicleInfoTask is starting
+[ INFO ] [2016-04-28 10:30:36] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [56] - CanTaskImpl is starting
+[ INFO ] [2016-04-28 10:30:36] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [40] - FenceTaskImpl is starting
+[ INFO ] [2016-04-28 10:30:37] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [44] - FenceTaskImpl has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:30:37] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [42] - VehicleInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:30:37] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [46] - AlarmInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:30:38] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [60] - CanTaskImpl has been finished,and cost 2s
+[ INFO ] [2016-04-28 10:32:09] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:32:14] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:32:14] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:32:14] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:32:14] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:32:14] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:32:14] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:32:14] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:32:15] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:32:15] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0x29d81ecf] REGISTERED
+[ INFO ] [2016-04-28 10:32:15] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0x29d81ecf] BIND(0.0.0.0/0.0.0.0:8089)
+[ INFO ] [2016-04-28 10:32:15] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0x29d81ecf, /0:0:0:0:0:0:0:0:8089] ACTIVE
+[ INFO ] [2016-04-28 10:32:15] org.quartz.impl.StdSchedulerFactory.main [1184] - Using default implementation for ThreadExecutor
+[ INFO ] [2016-04-28 10:32:15] org.quartz.core.SchedulerSignalerImpl.main [61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO ] [2016-04-28 10:32:15] org.quartz.core.QuartzScheduler.main [240] - Quartz Scheduler v.2.2.1 created.
+[ INFO ] [2016-04-28 10:32:15] org.quartz.simpl.RAMJobStore.main [155] - RAMJobStore initialized.
+[ INFO ] [2016-04-28 10:32:15] org.quartz.core.QuartzScheduler.main [305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO ] [2016-04-28 10:32:15] org.quartz.impl.StdSchedulerFactory.main [1339] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+[ INFO ] [2016-04-28 10:32:15] org.quartz.impl.StdSchedulerFactory.main [1343] - Quartz scheduler version: 2.2.1
+[ INFO ] [2016-04-28 10:32:15] org.quartz.core.QuartzScheduler.main [2311] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@38ded3e6
+[ INFO ] [2016-04-28 10:32:15] org.quartz.core.QuartzScheduler.main [575] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+[ INFO ] [2016-04-28 10:32:15] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [38] - VehicleInfoTask is starting
+[ INFO ] [2016-04-28 10:32:15] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [42] - AlarmInfoTask is starting
+[ INFO ] [2016-04-28 10:32:16] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [40] - FenceTaskImpl is starting
+[ INFO ] [2016-04-28 10:32:16] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [56] - CanTaskImpl is starting
+[ INFO ] [2016-04-28 10:32:17] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [46] - AlarmInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:32:17] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [44] - FenceTaskImpl has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:32:17] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [42] - VehicleInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:32:18] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [60] - CanTaskImpl has been finished,and cost 2s
+[ INFO ] [2016-04-28 10:37:15] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-5 [38] - VehicleInfoTask is starting
+[ INFO ] [2016-04-28 10:37:15] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-6 [56] - CanTaskImpl is starting
+[ INFO ] [2016-04-28 10:37:15] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-7 [40] - FenceTaskImpl is starting
+[ INFO ] [2016-04-28 10:37:15] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-5 [42] - VehicleInfoTask has been finished,and cost 0s
+[ INFO ] [2016-04-28 10:37:15] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-7 [44] - FenceTaskImpl has been finished,and cost 0s
+[ INFO ] [2016-04-28 10:37:17] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-6 [60] - CanTaskImpl has been finished,and cost 2s
+[ INFO ] [2016-04-28 10:41:08] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:41:13] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:41:13] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:41:13] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:41:13] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:41:13] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:41:13] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:41:13] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:41:14] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:41:14] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0x2fca1415] REGISTERED
+[ INFO ] [2016-04-28 10:41:14] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0x2fca1415] BIND(0.0.0.0/0.0.0.0:8089)
+[ INFO ] [2016-04-28 10:41:14] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0x2fca1415, /0:0:0:0:0:0:0:0:8089] ACTIVE
+[ INFO ] [2016-04-28 10:41:14] org.quartz.impl.StdSchedulerFactory.main [1184] - Using default implementation for ThreadExecutor
+[ INFO ] [2016-04-28 10:41:14] org.quartz.core.SchedulerSignalerImpl.main [61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO ] [2016-04-28 10:41:14] org.quartz.core.QuartzScheduler.main [240] - Quartz Scheduler v.2.2.1 created.
+[ INFO ] [2016-04-28 10:41:14] org.quartz.simpl.RAMJobStore.main [155] - RAMJobStore initialized.
+[ INFO ] [2016-04-28 10:41:14] org.quartz.core.QuartzScheduler.main [305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO ] [2016-04-28 10:41:14] org.quartz.impl.StdSchedulerFactory.main [1339] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+[ INFO ] [2016-04-28 10:41:14] org.quartz.impl.StdSchedulerFactory.main [1343] - Quartz scheduler version: 2.2.1
+[ INFO ] [2016-04-28 10:41:14] org.quartz.core.QuartzScheduler.main [2311] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@70eb427d
+[ INFO ] [2016-04-28 10:41:14] org.quartz.core.QuartzScheduler.main [575] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+[ INFO ] [2016-04-28 10:41:15] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [38] - VehicleInfoTask is starting
+[ INFO ] [2016-04-28 10:41:15] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [56] - CanTaskImpl is starting
+[ INFO ] [2016-04-28 10:41:15] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [42] - AlarmInfoTask is starting
+[ INFO ] [2016-04-28 10:41:15] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [40] - FenceTaskImpl is starting
+[ INFO ] [2016-04-28 10:41:16] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [44] - FenceTaskImpl has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:41:16] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [42] - VehicleInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:41:16] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [46] - AlarmInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:41:17] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [60] - CanTaskImpl has been finished,and cost 2s
+[ INFO ] [2016-04-28 10:42:29] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:42:35] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:42:35] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:42:35] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:42:35] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:42:35] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:42:35] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:42:35] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:42:36] com.tianze.client.TlbsClient.main [149] - connect tlbs success
+[ INFO ] [2016-04-28 10:42:36] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:43:03] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xe05ac22f] REGISTERED
+[ INFO ] [2016-04-28 10:43:03] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xe05ac22f] BIND(0.0.0.0/0.0.0.0:8089)
+[ INFO ] [2016-04-28 10:43:03] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xe05ac22f, /0:0:0:0:0:0:0:0:8089] ACTIVE
+[ INFO ] [2016-04-28 10:44:52] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:45:16] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:45:59] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:46:04] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:46:04] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:46:04] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:46:04] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:46:04] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:46:04] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:46:04] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:46:05] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:47:42] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:47:50] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:47:50] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:47:50] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:47:50] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:47:50] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:47:50] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:47:50] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:47:51] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:47:51] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xbeb5126f] REGISTERED
+[ INFO ] [2016-04-28 10:47:51] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xbeb5126f] BIND(0.0.0.0/0.0.0.0:8089)
+[ INFO ] [2016-04-28 10:47:51] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xbeb5126f, /0:0:0:0:0:0:0:0:8089] ACTIVE
+[ INFO ] [2016-04-28 10:47:51] org.quartz.impl.StdSchedulerFactory.main [1184] - Using default implementation for ThreadExecutor
+[ INFO ] [2016-04-28 10:47:51] org.quartz.core.SchedulerSignalerImpl.main [61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO ] [2016-04-28 10:47:51] org.quartz.core.QuartzScheduler.main [240] - Quartz Scheduler v.2.2.1 created.
+[ INFO ] [2016-04-28 10:47:51] org.quartz.simpl.RAMJobStore.main [155] - RAMJobStore initialized.
+[ INFO ] [2016-04-28 10:47:51] org.quartz.core.QuartzScheduler.main [305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO ] [2016-04-28 10:47:51] org.quartz.impl.StdSchedulerFactory.main [1339] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+[ INFO ] [2016-04-28 10:47:51] org.quartz.impl.StdSchedulerFactory.main [1343] - Quartz scheduler version: 2.2.1
+[ INFO ] [2016-04-28 10:47:51] org.quartz.core.QuartzScheduler.main [2311] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@333d2dad
+[ INFO ] [2016-04-28 10:47:52] org.quartz.core.QuartzScheduler.main [575] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+[ INFO ] [2016-04-28 10:47:52] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [42] - AlarmInfoTask is starting
+[ INFO ] [2016-04-28 10:47:52] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [40] - FenceTaskImpl is starting
+[ INFO ] [2016-04-28 10:47:52] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [38] - VehicleInfoTask is starting
+[ INFO ] [2016-04-28 10:47:52] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [56] - CanTaskImpl is starting
+[ INFO ] [2016-04-28 10:47:56] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:48:02] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:48:02] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:48:02] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:48:02] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:48:02] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:48:02] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:48:02] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:48:03] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:48:03] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xe33c4f46] REGISTERED
+[ INFO ] [2016-04-28 10:48:03] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xe33c4f46] BIND(0.0.0.0/0.0.0.0:8089)
+[ INFO ] [2016-04-28 10:48:03] io.netty.handler.logging.LoggingHandler.nioEventLoopGroup-2-1 [101] - [id: 0xe33c4f46, /0:0:0:0:0:0:0:0:8089] ACTIVE
+[ INFO ] [2016-04-28 10:48:03] org.quartz.impl.StdSchedulerFactory.main [1184] - Using default implementation for ThreadExecutor
+[ INFO ] [2016-04-28 10:48:03] org.quartz.core.SchedulerSignalerImpl.main [61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[ INFO ] [2016-04-28 10:48:03] org.quartz.core.QuartzScheduler.main [240] - Quartz Scheduler v.2.2.1 created.
+[ INFO ] [2016-04-28 10:48:03] org.quartz.simpl.RAMJobStore.main [155] - RAMJobStore initialized.
+[ INFO ] [2016-04-28 10:48:03] org.quartz.core.QuartzScheduler.main [305] - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'SpringJobSchedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[ INFO ] [2016-04-28 10:48:03] org.quartz.impl.StdSchedulerFactory.main [1339] - Quartz scheduler 'SpringJobSchedulerFactoryBean' initialized from an externally provided properties instance.
+[ INFO ] [2016-04-28 10:48:03] org.quartz.impl.StdSchedulerFactory.main [1343] - Quartz scheduler version: 2.2.1
+[ INFO ] [2016-04-28 10:48:03] org.quartz.core.QuartzScheduler.main [2311] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@46a1d830
+[ INFO ] [2016-04-28 10:48:03] org.quartz.core.QuartzScheduler.main [575] - Scheduler SpringJobSchedulerFactoryBean_$_NON_CLUSTERED started.
+[ INFO ] [2016-04-28 10:48:03] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [38] - VehicleInfoTask is starting
+[ INFO ] [2016-04-28 10:48:03] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [42] - AlarmInfoTask is starting
+[ INFO ] [2016-04-28 10:48:03] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [40] - FenceTaskImpl is starting
+[ INFO ] [2016-04-28 10:48:03] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [56] - CanTaskImpl is starting
+[ INFO ] [2016-04-28 10:48:05] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-1 [42] - VehicleInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:48:05] com.tianze.task.impl.FenceTaskImpl.SpringJobSchedulerFactoryBean_Worker-4 [44] - FenceTaskImpl has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:48:05] com.tianze.task.impl.AlarmInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-3 [46] - AlarmInfoTask has been finished,and cost 1s
+[ INFO ] [2016-04-28 10:48:06] com.tianze.task.impl.VehicleInfoTaskImpl.SpringJobSchedulerFactoryBean_Worker-2 [60] - CanTaskImpl has been finished,and cost 2s
+[ INFO ] [2016-04-28 10:48:19] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:48:24] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:48:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:48:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:48:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:48:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:48:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:48:24] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:48:25] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:49:23] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:49:28] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:49:28] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:49:28] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:49:28] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:49:28] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:49:28] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:49:28] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:49:29] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:51:19] com.tianze.utils.SpringUtils.main [26] - create applicationContext!
+[ INFO ] [2016-04-28 10:51:24] com.tianze.other.SqlXmlCache.main [44] - 启动，读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:51:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectVehicle DESCRIPTION: 获取车辆信息 SQL SIZE IS 324
+[ INFO ] [2016-04-28 10:51:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectCan DESCRIPTION: 获取功能集信息 SQL SIZE IS 175
+[ INFO ] [2016-04-28 10:51:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFenceAlarm DESCRIPTION: 获取围栏报警信息 SQL SIZE IS 330
+[ INFO ] [2016-04-28 10:51:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectAlarm DESCRIPTION: 获取报警信息 SQL SIZE IS 332
+[ INFO ] [2016-04-28 10:51:24] com.tianze.other.SqlXmlCache.main [66] - KEY:selectFence DESCRIPTION: 获取围栏信息 SQL SIZE IS 236
+[ INFO ] [2016-04-28 10:51:24] com.tianze.other.SqlXmlCache.main [75] - 成功读取记录所有SQL语句的XML信息！
+[ INFO ] [2016-04-28 10:51:25] com.tianze.client.TlbsClient.nioEventLoopGroup-3-1 [134] - connect tlbs success
+[ INFO ] [2016-04-28 10:51:25] com.tianze.client.TlbsClient.main [149] - connect tlbs success

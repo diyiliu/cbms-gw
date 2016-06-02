@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.netty:netty-transport-udt:4.0.30.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-udt/4.0.30.Final/62949bfef82b2a5e945e9a0ae95bebc82e1d5c27/netty-transport-udt-4.0.30.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-udt/4.0.30.Final/62949bfef82b2a5e945e9a0ae95bebc82e1d5c27/netty-transport-udt-4.0.30.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/gradle/caches/modules-2/files-2.1/io.netty/netty-transport-udt/4.0.30.Final/661ab5cb992f52f2d9df2dd27af1dc244fb80f40/netty-transport-udt-4.0.30.Final-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-udt/4.0.30.Final/661ab5cb992f52f2d9df2dd27af1dc244fb80f40/netty-transport-udt-4.0.30.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
